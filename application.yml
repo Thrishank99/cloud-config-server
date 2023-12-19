@@ -1,0 +1,14 @@
+microservice:
+ student-service:
+  endpoints:
+   endpoint:
+    uri: "http://COLLEGE-MICROSERVICE/college/findAll";
+college-service:
+ endpoints:
+  endpoint:
+   uri1: "http://API-GATEWAY/college/findAll";
+college-service:
+ endpoints:
+  endpoint:
+   uri: "http://STUDENT-MICROSERVICE/student/findAll";   
+   
