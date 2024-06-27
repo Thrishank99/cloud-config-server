@@ -2,8 +2,8 @@ microservice:
   student-service:
    endpoints:
      endpoint:
-      uri: http://API-GATEWAY/college/findAll     
+      uri: http://API-GATEWAY/college/findAll
   college-service:
-   endpoints:
-     endpoint:
-      uri: http://API-GATEWAY/student/findAll
+       endpoints:
+         endpoint:
+           uri:http://API-GATEWAY/student/findAll
