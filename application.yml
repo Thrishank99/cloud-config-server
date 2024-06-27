@@ -3,6 +3,12 @@ microservice:
    endpoints:
      endpoint:
       uri: http://API-GATEWAY/college/findAll
+  student-service:
+   endpoints:
+     endpoint:
+      fiegn:
+       uri: http://API-GATEWAY/feign/findAllUsers    
+      
   college-service:
     endpoints:
      endpoint:
