@@ -1,5 +1,1 @@
-microservice:
- college-service:
-       endpoints:
-         endpoint:
-           uri: http://API-GATEWAY/student/findAll
+
